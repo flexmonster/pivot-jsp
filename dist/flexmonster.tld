@@ -92,6 +92,12 @@
       	<rtexprvalue>true</rtexprvalue>
     </attribute>
     <attribute>
+    	<name>datachanged</name>
+    	<required>false</required>
+      	<type>java.lang.String</type>
+      	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
     	<name>fieldslistclose</name>
     	<required>false</required>
       	<type>java.lang.String</type>
