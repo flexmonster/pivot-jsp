@@ -92,6 +92,12 @@
       	<rtexprvalue>true</rtexprvalue>
     </attribute>
     <attribute>
+    	<name>datachanged</name>
+    	<required>false</required>
+      	<type>java.lang.String</type>
+      	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
     	<name>fieldslistclose</name>
     	<required>false</required>
       	<type>java.lang.String</type>
@@ -225,6 +231,24 @@
     </attribute>
     <attribute>
     	<name>update</name>
+    	<required>false</required>
+      	<type>java.lang.String</type>
+      	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+    	<name>beforetoolbarcreated</name>
+    	<required>false</required>
+      	<type>java.lang.String</type>
+      	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+    	<name>beforegriddraw</name>
+    	<required>false</required>
+      	<type>java.lang.String</type>
+      	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+    	<name>aftergriddraw</name>
     	<required>false</required>
       	<type>java.lang.String</type>
       	<rtexprvalue>true</rtexprvalue>
